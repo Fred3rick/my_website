@@ -1,4 +1,4 @@
 ---
 title: "Home"
 ---
-This is some info about me.
+Questa è la mia home page.
