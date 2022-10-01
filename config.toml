@@ -8,7 +8,7 @@ pygmentsUseClasses = true
 [params]
   description = "Your site description"
   copyright = "Copyright © 2022 Federico Giurdanella"
-  dark = "off"
+  dark = "on"
   highlight = true
 
 [menu]
