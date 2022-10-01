@@ -16,15 +16,15 @@ pygmentsUseClasses = true
     identifier = "posts"
     name = "posts"
     title = "posts"
-    url = "posts"
-    weight = 10
+    url = "/posts/"
+    weight = 30
 
   [[menu.main]]
     identifier = "about"
     name = "about"
     title = "about"
     url = "/about/"
-    weight = 10
+    weight = 20
 
   [[menu.main]]
     identifier = "contact"
