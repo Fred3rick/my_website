@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "/"
 title = "Federico Giurdanella"
 languageCode = "it-IT"
 enableInlineShortcodes = true
