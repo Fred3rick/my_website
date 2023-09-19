@@ -13,7 +13,7 @@ Text Domain: fridericus
 
 body, html{
   font-family: 'Roboto', sans-serif;
-  background: #e7e7e7;
+  background: #000;
 }
 
 p, h1, h2, h3, h4, h5{margin: 0;}
@@ -78,15 +78,46 @@ a:hover{text-decoration: none; color: red; transition: .2s ease;}
 }
 
 .page-body{
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 15px;
   padding-right: 15px;
   padding-left: 15px;
 }
 
-.folio-body{
-  padding: 15px 15px 0px 15px;
-}
+
+
+
+/* -------------------------------------------------------------------------------- */
+/* ! Cards */
+/* -------------------------------------------------------------------------------- */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+    
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+/* -------------------------------------------------------------------------------- */
+/* ! Correzioni */
+/* -------------------------------------------------------------------------------- */
+
 
 /* -------------------------------------------------------------------------------- */
 /* ! Jumbotron */
@@ -301,7 +332,7 @@ a:hover{text-decoration: none; color: red; transition: .2s ease;}
 
 .input-group > input, .input-group-addon{background-color: e9ecef;}
 
-.blog__title, {margin-top: 5px;}
+.blog__title {margin-top: 5px;}
 .post{margin-bottom: 15px;}
 .btn-warning{border-radius: 0px; border: 0; padding: 4px; font-size: 13px; margin-top: 5px; margin-right: 5px; font-weight: 500}
 .blog__text{margin-top: 5px;}
@@ -322,6 +353,8 @@ input, textarea{border: none; background: #eee; padding: 10px;}
 input[type=submit]{background: red; color: #fff;}
 
 #comment{width: 100%;}
+
+
 
 /* -------------------------------------------------------------------------------- */
 /* ! Small devices (tablet, da 768px in su) */
