@@ -6,7 +6,7 @@
 
 body, html{
   font-family: 'Roboto', sans-serif;
-  background: #e7e7e7;
+  background: #121212;
 }
 
 p, h1, h2, h3, h4, h5{margin: 0;}
@@ -67,7 +67,7 @@ a:hover{text-decoration: none; color: red; transition: .2s ease;}
 
 .page {
   position: relative;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .page-body{
@@ -114,20 +114,20 @@ a:hover{text-decoration: none; color: red; transition: .2s ease;}
 /* ! Navbar */
 /* -------------------------------------------------------------------------------- */
 .navbar{margin-bottom: 0px; border:0; height: 51px; border-radius: 0;}
-.navbar-inverse{background-color: #1A2732;}
+.navbar-inverse{background-color: #e84c1c;}
 .navbar-inverse .navbar-nav > li > a{color: #fff; font-weight: 500;}
-.navbar-inverse .navbar-nav > li > a:hover{color:#000;}
+.navbar-inverse .navbar-nav > li > a:hover{color:#fff;}
 .navbar-nav > li > a{padding-top: 16px;}
 
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover{
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   font-weight: bold;}
 
 .navbar-brand{padding: 0;margin: 0;}
 .nav{font-size: 16px; text-transform: uppercase;}
-.nav > li:hover{background-color: #fff;}
+.nav > li:hover{background-color: #000;}
 .nav > li > a:hover{color: #fff;}
 
 .nav__social{margin-right: 15px; }
@@ -274,6 +274,10 @@ a:hover{text-decoration: none; color: red; transition: .2s ease;}
 
  .portfolio__box:hover .portfolio__overlay{opacity: 0;}
 
+ .portfolio__padding{
+    padding-left: 0px;
+ }
+
 /* -------------------------------------------------------------------------------- */
 /* ! My resume */
 /* -------------------------------------------------------------------------------- */
@@ -294,7 +298,7 @@ a:hover{text-decoration: none; color: red; transition: .2s ease;}
 
 .input-group > input, .input-group-addon{background-color: e9ecef;}
 
-.blog__title, {margin-top: 5px;}
+.blog__title {margin-top: 5px;}
 .article{margin-bottom: 15px;}
 .btn-warning{border-radius: 0px; border: 0; padding: 4px; font-size: 13px; margin-top: 5px; margin-right: 5px; font-weight: 500}
 .blog__text{margin-top: 5px;}
